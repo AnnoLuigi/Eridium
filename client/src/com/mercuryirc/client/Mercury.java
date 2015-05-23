@@ -55,14 +55,14 @@ public class Mercury extends Application {
 	@Override
 	public void start(Stage stage) {
 		Mercury.stage = stage;
-		stage.setTitle("Mercury");
+		stage.setTitle("Eridium");
 		stage.getIcons().add(new Image(Mercury.class.getResource("/res/images/icon32.png").toExternalForm()));
 		VBox content = new VBox();
 		content.getChildren().add(appPane = new ApplicationPane());
 		callback = new CallbackImpl(appPane);
 		Scene scene = new Scene(content);
 		scene.setFill(null);
-		scene.getStylesheets().add(Mercury.class.getResource("/res/css/Mercury.css").toExternalForm());
+		scene.getStylesheets().add(Mercury.class.getResource("/res/css/Eridium.css").toExternalForm());
 		stage.setScene(scene);
 		String bounds = Settings.get("bounds");
 		if (bounds == null) {

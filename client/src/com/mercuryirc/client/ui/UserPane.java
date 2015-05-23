@@ -112,19 +112,19 @@ public class UserPane extends VBox {
 								String rankName = null;
 								switch (rank) {
 									case OWNER:
-										rankName = "Owner";
+										rankName = "~";
 										break;
 									case PROTECT:
-										rankName = "Admin";
+										rankName = "&";
 										break;
 									case OP:
-										rankName = "Op";
+										rankName = "@";
 										break;
 									case HALFOP:
-										rankName = "Halfop";
+										rankName = "%";
 										break;
 									case VOICE:
-										rankName = "Voice";
+										rankName = "+";
 								}
 								Label ranklabel = new Label(rankName);
 								ranklabel.setId("rank-label");

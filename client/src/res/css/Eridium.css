@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
 .root {
 	title-color: rgb(100, 100, 100);
 	background-color: rgb(245, 245, 245);
@@ -52,13 +54,13 @@
 }
 
 .icon .label {
-	-fx-font-family: FontAwesome;
+	-fx-font-family: 'Roboto', sans-serif;;
 	-fx-font-size: 16pt;
 }
 
 .label {
 	-fx-text-fill: control-color;
-	-fx-font-family: Open-Sans;
+	-fx-font-family: 'Roboto', sans-serif;;
 }
 
 .button {

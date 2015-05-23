@@ -27,7 +27,7 @@ public class ConnectStage extends Stage {
 		getIcons().add(new Image(Mercury.class.getResource("/res/images/icon32.png").toExternalForm()));
 		Scene scene = new Scene(new ConnectPane(this));
 		scene.setFill(null);
-		scene.getStylesheets().add(Mercury.class.getResource("/res/css/Mercury.css").toExternalForm());
+		scene.getStylesheets().add(Mercury.class.getResource("/res/css/Eridium.css").toExternalForm());
 		scene.getStylesheets().add(Mercury.class.getResource("/res/css/ConnectStage.css").toExternalForm());
 		setScene(scene);
 		show();
